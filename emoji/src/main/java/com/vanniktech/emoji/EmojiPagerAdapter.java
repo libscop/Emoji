@@ -33,7 +33,7 @@ public final class EmojiPagerAdapter extends PagerAdapter {
 
   private RecentEmojiGridView recentEmojiGridView;
 
-  EmojiPagerAdapter(final OnEmojiClickListener listener,
+  public EmojiPagerAdapter(final OnEmojiClickListener listener,
                     final OnEmojiLongClickListener longListener,
                     final RecentEmoji recentEmoji, final VariantEmoji variantManager) {
     this.listener = listener;

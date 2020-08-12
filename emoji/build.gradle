@@ -31,4 +31,4 @@ dependencies {
   androidTestAnnotationProcessor deps.support.test.autoService
 }
 
-apply plugin: "com.vanniktech.maven.publish"
+//apply plugin: "com.vanniktech.maven.publish"
